@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "@abacus-insights/fhir-works-on-aws-interface",
   "version": "1.0.0",
-=======
-  "name": "fhir-works-on-aws-interface",
-  "version": "2.0.0",
->>>>>>> 6983f0e33ad739256e5aa9064b723fa5a3d344d5
   "description": "FHIR Works on AWS hosted on AWS Lambda",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
