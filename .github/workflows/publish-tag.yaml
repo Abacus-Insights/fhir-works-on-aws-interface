@@ -27,6 +27,6 @@ jobs:
       - name: install dependencies
         run: yarn install
       - name: publish
-        run: yarn publish
+        run: yarn publish --access public
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
