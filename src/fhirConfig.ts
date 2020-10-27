@@ -10,9 +10,13 @@ import { History } from './history';
 import { Persistence } from './persistence';
 import { Search } from './search';
 
-export interface Strategy {
+export interface OAuthStrategy {
     oauthAuthorizationUrl?: string;
     oauthTokenUrl?: string;
+}
+
+export interface Strategy {
+    oauth?: OAuthStrategy;
     // https://www.hl7.org/fhir/codesystem-restful-security-service.html
     service?: 'OAuth' | 'SMART-on-FHIR' | 'NTLM' | 'Basic' | 'Kerberos' | 'Certificates';
 }
