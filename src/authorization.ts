@@ -23,6 +23,7 @@ export interface BulkDataAuth {
 export interface VerifyAccessTokenRequest {
     accessToken: string;
     operation: TypeOperation | SystemOperation;
+    hostname: string;
     resourceType?: string;
     id?: string;
     vid?: string;
